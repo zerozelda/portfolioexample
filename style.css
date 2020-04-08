@@ -10,7 +10,7 @@ background-image: url("https://www.transparenttextures.com/patterns/natural-pape
 
 h1 {
   
-    padding: 30px;
+    padding: 10px;
     color:#FD6840;
     font-family: monospace;
     margin: auto;
@@ -65,21 +65,26 @@ font-family:monospace;
 }
 
 a1:link {
+    text-decoration: none;
     color:#FD6840;
 }
 
 a1:hover {
+    text-decoration: none;
     color:black
 }
 
 a:link {
+     text-decoration: none;
     color:black
 }
 
 a:hover {
+    text-decoration: none;
     color:#D69194
 }
 
 a:visited{
+    text-decoration: none;
     color:#ED9C27;
 }
