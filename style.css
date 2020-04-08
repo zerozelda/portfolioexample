@@ -3,29 +3,83 @@
 
 body {
 
-    background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    background-color: #f5f5f5;
+background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 h1 {
   
     padding: 30px;
-    color:salmon ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#FD6840;
+    font-family: monospace;
     margin: auto;
     text-align: center;
 }
+
+h2 {
+  
+    padding: 30px;
+    color:#FD6840;
+    font-family: monospace;
+    margin: auto;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 #AboutMe {
 margin: auto;
 text-align: center;
 padding: 50px;
+font-family:monospace;
 
 }
 
-#source { 
-margin: auto;
-text-align: center;
+a1:link {
+    color:#FD6840;
+}
+
+a1:hover {
+    color:black
+}
+
+a:link {
+    color:black
+}
+
+a:hover {
+    color:#D69194
+}
+
+a:visited{
+    color:#ED9C27;
 }
